@@ -1,27 +1,304 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Ash Lyu's CV: global expansion experience at top-tier tech companies (Moonshot AI Kimi, Tencent WeChat, Meituan Keemart, ByteDance TikTok LIVE), Arabic major at BFSU, Arabic-English bilingual."
-    />
-    <meta property="og:title" content="Ash Lyu CV" />
-    <meta
-      property="og:description"
-      content="多段头部大厂出海经历 · 从中东区域到全球策略视野 · 阿英双语能力 · AI 能力深度赋能业务"
-    />
-    <meta property="og:type" content="website" />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23C2410C'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='serif'%3EA%3C/text%3E%3C/svg%3E"
-    />
-    <title>Ash Lyu CV</title>
-    <script type="module" crossorigin src="./assets/index-Bm0ek1dO.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CSiEhA15.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="吕锦良的个人简历：海外增长运营，专注中东 GTM、本地化与 AI 业务落地。">
+  <meta property="og:title" content="吕锦良 · 个人简历">
+  <meta property="og:description" content="海外增长运营，专注中东 GTM、本地化与 AI 业务落地。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jinlianglu816-glitch.github.io/">
+  <link rel="canonical" href="https://jinlianglu816-glitch.github.io/">
+  <title>吕锦良 · 个人简历</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Golos+Text:wght@400;500&family=Noto+Sans+SC:wght@400;500;800&display=swap" rel="stylesheet">
+  <style>
+:root {
+  color-scheme: light;
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.8125rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.25rem; --text-xl: 1.5625rem; --text-2xl: 1.953rem; --text-3xl: 2.441rem;
+  --text-display-s: clamp(2.25rem, 4vw + 0.5rem, 3.75rem); --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
+  --text-section: clamp(2rem, 2.5vw + 1rem, 3.5rem); --text-title: clamp(1.25rem, 0.75vw + 0.875rem, 1.625rem); --text-lead: clamp(1.125rem, 0.35vw + 1rem, 1.375rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
+  --container: 1440px; --gutter: 64px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --color-paper: oklch(92% 0.045 50); --color-paper-2: oklch(88% 0.050 45); --color-paper-3: oklch(82% 0.060 40);
+  --color-ink: oklch(18% 0.080 20); --color-ink-2: oklch(28% 0.060 25); --color-muted: oklch(42% 0.050 30);
+  --color-rule: oklch(40% 0.21 25); --color-accent: oklch(86% 0.18 95); --color-accent-2: oklch(40% 0.21 25);
+  --color-accent-ink: oklch(18% 0.080 20); --color-focus: oklch(40% 0.21 25);
+  --font-display: "Big Shoulders Display", Impact, sans-serif; --font-body: "Golos Text", system-ui, sans-serif;
+  --font-outlier: var(--font-body);
+  --radius-card: 2px; --radius-pill: 2px; --rule-hair: 1px; --rule-bar: 2px; --shadow-card: 4px 4px 0 var(--color-ink);
+  --tracking-display: 0.015em; --display-weight: 800;
+}
+
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { overflow-x: clip; }
+html { scrollbar-color: var(--color-muted) var(--color-paper); scroll-padding-top: var(--space-3xl); }
+body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-body); font-size: var(--text-md); line-height: 1.55; -webkit-font-smoothing: antialiased; caret-color: var(--color-accent); }
+::selection { background: color-mix(in oklab, var(--color-accent) 22%, transparent); color: var(--color-ink); }
+:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+h1, h2, h3 { margin: 0; font-family: var(--font-display); font-weight: var(--display-weight, 700); font-synthesis: none; letter-spacing: var(--tracking-display); line-height: 1.05; overflow-wrap: break-word; min-width: 0; text-wrap: balance; }
+h1 { max-width: 20ch; font-size: var(--text-display); } h2 { max-width: 30ch; font-size: var(--text-section); } h3 { max-width: 40ch; font-size: var(--text-title); line-height: 1.2; }
+.lead { font-size: var(--text-lead); line-height: 1.45; max-width: 52ch; }
+p { margin: 0; text-wrap: pretty; }
+p:not([class]) { max-width: 65ch; }
+img, video { max-width: 100%; height: auto; display: block; }
+svg { display: block; }
+[hidden] { display: none !important; }
+button, input, select, textarea { font: inherit; }
+.container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: var(--gutter); box-sizing: border-box; }
+.num, .figure, td.num { font-variant-numeric: tabular-nums; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+[data-slot] { position: relative; overflow: hidden; background: linear-gradient(160deg, var(--color-paper-2, var(--color-paper)), var(--color-paper-3, var(--color-paper))); }
+[data-slot] > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+[data-slot]:has(> img) > :not(img):not([data-keep]) { display: none !important; }
+@media (max-width: 60rem) { :root { --gutter: 24px; --section-gap-s: 80px; --section-gap: 96px; --section-gap-l: 120px; } }
+@media (max-width: 40rem) { :root { --gutter: 16px; --section-gap-s: 56px; --section-gap: 72px; --section-gap-l: 96px; --gap-columns: 16px; } }
+@media (prefers-reduced-motion: reduce) { *:not(.keep-motion), *:not(.keep-motion)::before, *:not(.keep-motion)::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }
+/* photographs: natural vib=20 con=10 */
+[data-slot] > img { filter: saturate(1.1) contrast(1.1); }
+
+
+/* Hallmark · shape: Portfolio Grid · genre: editorial · theme: Carnival (deal 3/3, seed three-experimental-personal-resume-e6d4·994e67ee·2026-11-24·r0) · job: hire · draw: three-experimental-personal-resume-e6d4·994e67ee·2026-11-24·r0
+ * hero: Banner · nav: slab · footer: colophon · imagery: small user portrait · signature: a compact curriculum vitae with printed rules · carnival: pressroom
+ * axes: light/display-heavy/chromatic-yellow · posture: full-palette · contrast: pass · fold: pass · v2.0.0 */
+/* Hallmark · pre-emit critique: P5 H5 E4 S5 R4 V5 · weakest: R, one hard-shadow recipe retained and all extra decoration cut */
+
+:root {
+  --color-paper: oklch(89% 0.025 65); --color-paper-2: oklch(85% 0.03 65); --color-paper-3: oklch(79% 0.04 65);
+  --color-ink: oklch(16% 0.02 60); --color-ink-2: oklch(24% 0.03 60); --color-muted: oklch(40% 0.04 60);
+  --color-accent: oklch(78% 0.18 75); --color-accent-2: oklch(34% 0.10 240); --color-rule: var(--color-accent-2);
+  --color-focus: oklch(34% 0.10 240);
+  --font-display: "Big Shoulders Display", "Noto Sans SC", sans-serif;
+  --font-body: "Golos Text", "Noto Sans SC", sans-serif;
+  --nav-height: 80px;
+}
+.site-header { height: var(--nav-height); border-bottom: var(--rule-bar) solid var(--color-accent-2); }
+.nav { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: var(--gap-columns); }
+.wordmark { font: 800 var(--text-title)/1 var(--font-display); text-decoration: none; text-transform: uppercase; white-space: nowrap; }
+.nav-links { display: flex; align-items: center; gap: var(--gap-columns); margin-left: auto; }
+.nav-links a { font-size: var(--text-sm); text-decoration-color: var(--color-accent-2); }
+.language { min-width: 48px; min-height: 44px; border: var(--rule-bar) solid var(--color-ink); border-radius: var(--radius-card); background: var(--color-paper); color: var(--color-ink); box-shadow: var(--shadow-card); cursor: pointer; }
+.language:hover { background: var(--color-accent); }
+.language:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--color-ink); }
+.hero { border-bottom: var(--rule-bar) solid var(--color-ink); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 200px; align-items: center; gap: var(--gap-columns); padding-block: var(--space-2xl); }
+.hero-copy { min-width: 0; }
+.hero h1 { max-width: 12ch; font-size: clamp(3rem, 5vw, 5rem); }
+.hero .lead { margin-top: var(--space-md); max-width: 38ch; color: var(--color-ink); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: var(--space-md); margin-top: var(--space-xl); }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 var(--space-lg); border: var(--rule-bar) solid var(--color-ink); border-radius: var(--radius-card); box-shadow: var(--shadow-card); background: var(--color-paper); color: var(--color-ink); font: 800 var(--text-md)/1 var(--font-display); text-decoration: none; white-space: nowrap; cursor: pointer; }
+.btn-primary { background: var(--color-accent); }
+.btn-primary:hover, .btn-secondary:hover { background: var(--color-accent-2); color: var(--color-paper); }
+.btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--color-ink); }
+.btn:disabled, .language:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+.hero-visual { min-width: 0; }
+.hero-photo { margin: 0; width: 200px; aspect-ratio: 4 / 5; border: var(--rule-bar) solid var(--color-ink); border-radius: var(--radius-card); }
+.photo-note { margin: var(--space-sm) 0 0; color: var(--color-ink-2); font-size: var(--text-xs); line-height: 1.5; }
+.skip { position: absolute; left: var(--space-md); top: calc(-1 * var(--space-3xl)); z-index: var(--z-toast); padding: var(--space-xs) var(--space-md); background: var(--color-accent); color: var(--color-ink); }
+.skip:focus-visible { top: var(--space-md); }
+@media (max-width: 60rem) {
+  .nav-links { display: none; }
+  .hero-grid { grid-template-columns: minmax(0, 1fr) 180px; gap: var(--gap-columns); padding-block: var(--space-xl); }
+  .hero-photo { width: 180px; }
+}
+@media (max-width: 40rem) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr) 112px; align-items: start; gap: var(--space-md); padding-block: var(--space-xl); }
+  .hero h1 { font-size: 3.5rem; }
+  .hero .lead { font-size: var(--text-md); }
+  .hero-photo { width: 112px; }
+  .hero-actions { align-items: flex-start; flex-direction: column; }
+}
+
+.section { padding-block: var(--section-gap-s); }
+.section-heading { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); align-items: end; gap: var(--gap-columns); margin-bottom: var(--space-xl); }
+.section-heading p { color: var(--color-ink-2); max-width: 36ch; }
+.score-strip { background: var(--color-paper-2); border-bottom: var(--rule-bar) solid var(--color-ink); }
+.score-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.score-grid > div { padding: var(--space-lg); border-left: var(--rule-hair) solid var(--color-ink); display: flex; flex-direction: column; gap: var(--space-xs); }
+.score-grid > div:last-child { border-right: var(--rule-hair) solid var(--color-ink); }
+.score-grid strong { font: 800 clamp(2.25rem, 3vw, 3.5rem)/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.score-grid span { font-size: var(--text-sm); }
+#experience .section-heading { margin-bottom: var(--space-lg); }
+.work-ledger { border-bottom: var(--rule-bar) solid var(--color-ink); }
+.work-ledger details { border-top: var(--rule-bar) solid var(--color-ink); }
+.work-ledger summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 48px minmax(0, 1fr) 150px; gap: var(--space-lg); align-items: center; padding: 20px var(--space-sm); }
+.work-ledger summary::-webkit-details-marker { display: none; }
+.work-ledger summary:hover { background: var(--color-paper-2); }
+.work-ledger details[open] summary { background: var(--color-paper-2); box-shadow: inset 4px 0 0 var(--color-accent); }
+.ledger-no { color: var(--color-muted); font: 800 var(--text-lg)/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.work-ledger summary > span:nth-child(2) { display: grid; grid-template-columns: minmax(200px, 0.9fr) minmax(0, 1.1fr); align-items: baseline; gap: var(--space-lg); }
+.work-ledger strong { font: 500 var(--text-lg)/1.35 var(--font-body); }
+.work-ledger small, .work-ledger time { font-size: var(--text-sm); line-height: 1.5; }
+.work-ledger small { color: var(--color-ink-2); }
+.work-ledger time { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ledger-body { padding: var(--space-sm) var(--space-sm) 28px calc(48px + var(--space-lg) + var(--space-sm)); }
+.ledger-body p { max-width: 72ch; color: var(--color-ink-2); font-size: var(--text-md); line-height: 1.75; }
+.project-section { background: var(--color-paper-2); border-block: var(--rule-bar) solid var(--color-ink); }
+.poster-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap-columns); align-items: stretch; }
+.poster-grid article { padding: var(--space-lg); border: var(--rule-bar) solid var(--color-ink); border-radius: var(--radius-card); background: var(--color-paper); }
+.poster-grid h3 { margin-bottom: var(--space-md); font-size: var(--text-title); }
+.poster-grid p { color: var(--color-ink-2); }
+.bio-education { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--gap-columns); }
+.bio-block h2, .education-block h2 { margin-bottom: var(--space-xl); }
+.bio-block p + p { margin-top: var(--space-lg); }
+.education-block { padding-left: var(--space-xl); border-left: var(--rule-bar) solid var(--color-ink); }
+.education-block h3 { margin-bottom: var(--space-lg); }
+.education-block p + p { margin-top: var(--space-sm); color: var(--color-ink-2); }
+.skill-list { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-xl); }
+.skill-list span { border: var(--rule-hair) solid var(--color-ink); padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-card); font-size: var(--text-sm); }
+.contact-section { padding-block: var(--space-2xl); background: var(--color-paper); color: var(--color-ink); border-top: var(--rule-bar) solid var(--color-ink); }
+.contact-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); align-items: center; gap: var(--gap-columns); }
+.contact-email { display: inline-block; margin-bottom: var(--space-md); font-weight: 500; overflow-wrap: anywhere; }
+.copy-status { min-height: 1.5em; margin-top: var(--space-sm); }
+.site-footer { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: var(--gap-columns); font-size: var(--text-sm); }
+.site-footer > span:last-child { font-family: var(--font-display); font-weight: 800; }
+@media (max-width: 60rem) {
+  .section-heading, .bio-education, .contact-grid { grid-template-columns: minmax(0, 1fr); gap: var(--gap-columns); }
+  .score-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .score-grid > div:nth-child(2) { border-right: var(--rule-hair) solid var(--color-ink); }
+  .score-grid > div:nth-child(n+3) { border-top: var(--rule-hair) solid var(--color-ink); }
+  .poster-grid { grid-template-columns: minmax(0, 1fr); }
+  .education-block { padding-left: 0; padding-top: var(--space-xl); border-left: 0; border-top: var(--rule-bar) solid var(--color-ink); }
+}
+@media (max-width: 40rem) {
+  .score-grid > div { padding: var(--space-md) var(--space-sm); }
+  .score-grid strong { font-size: 2.5rem; }
+  .work-ledger summary { grid-template-columns: 32px minmax(0, 1fr); gap: var(--gap-columns); padding-inline: 0; }
+  .work-ledger summary > span:nth-child(2) { display: flex; align-items: flex-start; flex-direction: column; gap: var(--space-xs); }
+  .work-ledger time { grid-column: 2; text-align: left; }
+  .ledger-body { padding-left: calc(32px + var(--gap-columns)); padding-right: 0; }
+  .contact-email { font-size: var(--text-sm); }
+  .site-footer { align-items: flex-start; flex-direction: column; justify-content: center; padding-block: var(--space-xl); gap: var(--space-sm); }
+}
+
+  </style>
+</head>
+<body id="top">
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="主导航">
+      <a class="wordmark" href="#top" aria-label="个人简历首页" data-zh="个人简历" data-en="Curriculum vitae">个人简历</a>
+      <div class="nav-links">
+        <a href="#experience" data-zh="工作经历" data-en="Experience">工作经历</a>
+        <a href="#projects" data-zh="代表项目" data-en="Projects">代表项目</a>
+        <a href="#contact" data-zh="联系方式" data-en="Contact">联系方式</a>
+      </div>
+      <button class="language" type="button" data-lang-toggle data-zh="EN" data-en="中文">EN</button>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 data-zh="吕锦良" data-en="Ash Lyu">吕锦良</h1>
+          <p class="lead" data-zh="海外增长运营，专注中东 GTM、本地化与 AI 业务落地。" data-en="International growth operator focused on MENA GTM, localization and AI operations.">海外增长运营，专注中东 GTM、本地化与 AI 业务落地。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#experience" data-zh="查看工作经历" data-en="View experience">查看工作经历</a>
+            <a class="btn btn-secondary" href="mailto:jinlianglu816@gmail.com" data-zh="联系我" data-en="Contact me">联系我</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <figure class="hero-photo" data-slot="hero" data-alt="吕锦良的个人肖像">
+            <img src="./images/个人照片.jpg" width="1024" height="1024" alt="吕锦良" fetchpriority="high">
+          </figure>
+          <p class="photo-note" data-zh="阿拉伯语口译硕士在读" data-en="Master’s student in Arabic Interpretation">阿拉伯语口译硕士在读</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="score-strip" aria-label="代表项目数据">
+      <div class="container score-grid"><div><strong>22.5M</strong><span data-zh="LIVE Fest 总曝光" data-en="LIVE Fest impressions">LIVE Fest 总曝光</span></div><div><strong>3.2M</strong><span data-zh="活动看播" data-en="Live views">活动看播</span></div><div><strong>+6pp</strong><span data-zh="Keemart 访购率提升" data-en="Keemart conversion lift">Keemart 访购率提升</span></div><div><strong>10+</strong><span data-zh="建联头部餐饮企业" data-en="Leading restaurant groups connected">建联头部餐饮企业</span></div></div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading"><h2 data-zh="工作经历" data-en="Experience">工作经历</h2><p data-zh="按时间倒序排列，展开查看每段工作的具体职责与结果。" data-en="In reverse chronological order. Expand each role for responsibilities and outcomes.">按时间倒序排列，展开查看每段工作的具体职责与结果。</p></div>
+      <div class="work-ledger">
+        <details open><summary><span class="ledger-no">01</span><span><strong data-zh="月之暗面 Kimi" data-en="Moonshot AI · Kimi">月之暗面 Kimi</strong><small data-zh="海外增长运营（中东）" data-en="International Growth, MENA">海外增长运营（中东）</small></span><time data-zh="2026.08 至今" data-en="Aug 2026/Present">2026.08 至今</time></summary><div class="ledger-body"><p data-zh="负责 MENA 冷启动、GTM 与 AI 内容营销，推进阿语本地化、RTL 和阿拉伯数字适配，让产品真正适合区域用户。" data-en="Own MENA market entry, GTM and AI content marketing, advancing Arabic localization, RTL and numeral adaptation for regional users.">负责 MENA 冷启动、GTM 与 AI 内容营销，推进阿语本地化、RTL 和阿拉伯数字适配，让产品真正适合区域用户。</p></div></details>
+        <details><summary><span class="ledger-no">02</span><span><strong data-zh="腾讯 · 微信小程序" data-en="Tencent · Weixin Mini Program">腾讯 · 微信小程序</strong><small data-zh="境外行业产品经理" data-en="Overseas Industry Product Manager">境外行业产品经理</small></span><time data-zh="2026.06/2026.08" data-en="Jun/Aug 2026">2026.06/2026.08</time></summary><div class="ledger-body"><p data-zh="围绕外籍用户来华登录、商户教育与境外餐饮小程序开展调研，建联 10+ 头部餐饮企业。" data-en="Researched inbound visitor login, merchant education and overseas dining Mini Programs, connecting with 10+ leading restaurant groups.">围绕外籍用户来华登录、商户教育与境外餐饮小程序开展调研，建联 10+ 头部餐饮企业。</p></div></details>
+        <details><summary><span class="ledger-no">03</span><span><strong data-zh="美团 Keemart" data-en="Meituan · Keemart">美团 Keemart</strong><small data-zh="利雅得 C 端用户增长" data-en="Consumer Growth, Riyadh">利雅得 C 端用户增长</small></span><time data-zh="2026.02/2026.06" data-en="Feb/Jun 2026">2026.02/2026.06</time></summary><div class="ledger-body"><p data-zh="通过 AI 外呼、WhatsApp 与 IVR 双渠道召回，有效接听率提升 5 个百分点，访购率提升 6 个百分点，新客环比提升 5 个百分点。" data-en="Used AI calls with WhatsApp and IVR outreach, lifting effective answers by 5pp, visit-to-purchase conversion by 6pp and new customers by 5pp month over month.">通过 AI 外呼、WhatsApp 与 IVR 双渠道召回，有效接听率提升 5 个百分点，访购率提升 6 个百分点，新客环比提升 5 个百分点。</p></div></details>
+        <details><summary><span class="ledger-no">04</span><span><strong data-zh="字节跳动 · TikTok LIVE" data-en="ByteDance · TikTok LIVE">字节跳动 · TikTok LIVE</strong><small data-zh="LIVE Fest 全球活动策略" data-en="Global Campaign Strategy, LIVE Fest">LIVE Fest 全球活动策略</small></span><time data-zh="2024.11/2025.06" data-en="Nov 2024/Jun 2025">2024.11/2025.06</time></summary><div class="ledger-body"><p data-zh="以 166% 目标完成率交付全球活动，获得 22.5M 曝光、45K 引流与 3.2M 看播，看播同比增长 25%。" data-en="Delivered the global campaign at 166% of target, with 22.5M impressions, 45K referrals and 3.2M live views, up 25% year over year.">以 166% 目标完成率交付全球活动，获得 22.5M 曝光、45K 引流与 3.2M 看播，看播同比增长 25%。</p></div></details>
+      </div>
+    </section>
+
+    <section class="section project-section" id="projects">
+      <div class="container"><div class="section-heading"><h2 data-zh="代表项目" data-en="Selected projects">代表项目</h2><p data-zh="三个项目分别涉及全球活动、用户增长与行业调研。" data-en="Three projects covering global campaigns, user growth and industry research.">三个项目分别涉及全球活动、用户增长与行业调研。</p></div>
+        <div class="poster-grid">
+          <article><h3 data-zh="LIVE Fest 全球活动策略" data-en="LIVE Fest global campaign strategy">LIVE Fest 全球活动策略</h3><p data-zh="协调全球策略与区域执行，追踪曝光、引流和看播数据；项目获得 22.5M 曝光与 3.2M 看播，目标完成率 166%。" data-en="Coordinated global strategy and regional execution across impressions, referrals and views; delivered 22.5M impressions and 3.2M live views at 166% of target.">协调全球策略与区域执行，追踪曝光、引流和看播数据；项目获得 22.5M 曝光与 3.2M 看播，目标完成率 166%。</p></article>
+          <article><h3 data-zh="Keemart 用户召回" data-en="Keemart user reactivation">Keemart 用户召回</h3><p data-zh="面向利雅得用户组合 AI 外呼、WhatsApp 与 IVR 渠道；有效接听率提升 5 个百分点，访购率提升 6 个百分点。" data-en="Combined AI calls, WhatsApp and IVR for users in Riyadh; effective answers rose 5pp and visit-to-purchase conversion rose 6pp.">面向利雅得用户组合 AI 外呼、WhatsApp 与 IVR 渠道；有效接听率提升 5 个百分点，访购率提升 6 个百分点。</p></article>
+          <article><h3 data-zh="外国人来华科技游调研" data-en="Inbound tech-tour research">外国人来华科技游调研</h3><p data-zh="分析 40+ OTA 产品、400+ 评论和年化 2 万+ C 端人次；结论为交易闭环不可行，机会在公共信息服务。" data-en="Reviewed 40+ OTA products, 400+ comments and 20K+ annual consumer visits; ruled out a transaction loop and identified public information services as the opportunity.">分析 40+ OTA 产品、400+ 评论和年化 2 万+ C 端人次；结论为交易闭环不可行，机会在公共信息服务。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container bio-education" id="about">
+      <div class="bio-block"><h2 data-zh="关于我" data-en="About">关于我</h2><p data-zh="阿拉伯语与英语专业八级。工作方向包括海外 GTM、本地化运营、AI 赋能业务、数据驱动增长、生态建设与从 0 到 1 执行。" data-en="TEM-8 in Arabic and English. My work covers international GTM, localization, AI-enabled operations, data-led growth, ecosystem building and zero-to-one execution.">阿拉伯语与英语专业八级。工作方向包括海外 GTM、本地化运营、AI 赋能业务、数据驱动增长、生态建设与从 0 到 1 执行。</p><p data-zh="独立作品包括“订阅刺客”小程序，从个人观察出发完成产品实践。" data-en="Independent work includes Subscription Assassin, a Mini Program built from a personal observation into a working product.">独立作品包括“订阅刺客”小程序，从个人观察出发完成产品实践。</p></div>
+      <div class="education-block"><h2 data-zh="教育背景" data-en="Education">教育背景</h2><h3 data-zh="北京外国语大学" data-en="Beijing Foreign Studies University">北京外国语大学</h3><p data-zh="2025/2027　阿拉伯语口译硕士" data-en="2025/2027　Master’s in Arabic Interpretation">2025/2027　阿拉伯语口译硕士</p><p data-zh="2021/2025　阿拉伯语本科" data-en="2021/2025　BA in Arabic">2021/2025　阿拉伯语本科</p><div class="skill-list" aria-label="技能"><span data-zh="AI 赋能业务" data-en="AI for business">AI 赋能业务</span><span data-zh="海外 GTM" data-en="International GTM">海外 GTM</span><span data-zh="本地化运营" data-en="Localization">本地化运营</span><span data-zh="数据驱动" data-en="Data-led growth">数据驱动</span><span data-zh="从 0 到 1" data-en="Zero to one">从 0 到 1</span><span data-zh="生态建设" data-en="Ecosystem building">生态建设</span></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid"><h2 data-zh="联系方式" data-en="Contact">联系方式</h2><div><a class="contact-email" href="mailto:jinlianglu816@gmail.com">jinlianglu816@gmail.com</a><button class="btn btn-primary" type="button" data-copy-email data-zh="复制邮箱" data-en="Copy email">复制邮箱</button><p class="copy-status" role="status" aria-live="polite"></p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer container"><span data-zh="吕锦良 · 个人简历" data-en="Ash Lyu · Curriculum vitae">吕锦良 · 个人简历</span><a href="#top" data-zh="返回顶部" data-en="Back to top">返回顶部</a><span>MENA · GTM · AI</span></footer>
+  <script>
+const EMAIL = 'jinlianglu816@gmail.com';
+const languageKey = 'ash-hallmark-language';
+
+function setLanguage(language) {
+  const lang = language === 'en' ? 'en' : 'zh';
+  document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+  document.querySelectorAll('[data-zh][data-en]').forEach((element) => {
+    element.textContent = element.dataset[lang];
+  });
+  document.querySelectorAll('[data-lang-toggle]').forEach((button) => {
+    button.setAttribute('aria-label', lang === 'zh' ? 'Switch to English' : '切换到中文');
+  });
+  try { localStorage.setItem(languageKey, lang); } catch {}
+}
+
+const savedLanguage = (() => {
+  try { return localStorage.getItem(languageKey); } catch { return null; }
+})();
+setLanguage(savedLanguage || 'zh');
+
+document.querySelectorAll('[data-lang-toggle]').forEach((button) => {
+  button.addEventListener('click', () => {
+    setLanguage(document.documentElement.lang === 'zh-CN' ? 'en' : 'zh');
+  });
+});
+
+document.querySelectorAll('[data-copy-email]').forEach((button) => {
+  button.setAttribute('aria-live', 'polite');
+  button.addEventListener('click', async () => {
+    const original = button.textContent;
+    try {
+      await navigator.clipboard.writeText(EMAIL);
+      button.textContent = document.documentElement.lang === 'zh-CN' ? '已复制' : 'Copied';
+    } catch {
+      const field = document.createElement('textarea');
+      field.value = EMAIL;
+      field.setAttribute('readonly', '');
+      field.className = 'visually-hidden';
+      document.body.append(field);
+      field.select();
+      const copied = document.execCommand('copy');
+      field.remove();
+      button.textContent = copied
+        ? (document.documentElement.lang === 'zh-CN' ? '已复制' : 'Copied')
+        : EMAIL;
+    }
+    window.setTimeout(() => { button.textContent = original; }, 1800);
+  });
+});
+
+  </script>
+</body>
 </html>
